@@ -9,4 +9,6 @@ Requires:
  - pyglet
  
 To train run with params: "--env Hearthstone --training --episodes 1000000"
+
+
 To display trained network: "--env Hearthstone --render --episodes 1000000" 
