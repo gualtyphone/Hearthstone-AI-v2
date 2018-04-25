@@ -1,7 +1,7 @@
 import logging
 
 
-def get_logger(name, level=logging.FATAL):
+def get_logger(name, level=logging.INFO):
 	logger = logging.getLogger(name)
 	logger.setLevel(level)
 
